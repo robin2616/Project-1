@@ -1,0 +1,74 @@
+@media only screen and (max-width: 600px) {
+
+#mainbox{
+  
+   left: 100px;
+    width: 360px;
+    height: 332px;
+    top: 1800px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+#insidebox{
+    width: 312px;
+    height: 236px;
+    top: 48px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+
+#lastbtn{
+    position: relative;
+    width: 264px;
+    height: 32px;
+    top: 105px;
+    left: -18px;
+    gap: 10px;
+    border-radius: 8px;
+
+    
+
+}
+#btntext{position: relative;
+    width: 54px;
+height: 16px;
+top: -6px;
+left: 80px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+
+}
+
+
+#textbox{
+    position: absolute;
+    width: 264px;
+    height: 100px;
+    top: 20px;
+    left: -15px;
+ 
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0.02em;
+
+
+
+}
+
+
+
+
+}
