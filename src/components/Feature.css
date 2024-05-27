@@ -1,0 +1,164 @@
+ /* @media only screen and (max-width: 600px) {
+     body{
+    width: 400px;
+} 
+
+    #mainbox {
+        position: relative;
+        height: 1500px;
+    }
+
+
+    #box1 {
+        position: fixed;
+        width: 312px;
+        height: 216px;
+        top: 816px;
+        left: 24px;
+        border-radius: 8px;
+
+
+    }
+
+    #icon1 {
+        position: fixed;
+        width: 102px;
+        height: 32px;
+        top: 840px;
+        left: 128px;
+
+
+    }
+
+    #icon2 {
+        position: fixed;
+        width: 91px;
+        height: 32px;
+        top: 1080px;
+        left: 135px;
+
+
+
+    }
+
+    #icon3 {
+        position: fixed;
+        width: 112px;
+        height: 32px;
+        top: 1320px;
+        left: 124px;
+
+    }
+
+#icon4{
+    position: fixed;
+    width: 121px;
+height: 32px;
+top: 1560px;
+left: 120px;
+
+}
+
+    #text1 {
+        position: fixed;
+        width: 264px;
+        height: 80px;
+        top: 884px;
+        left: 48px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-align: center;
+
+    }
+
+    #text2 {
+        position: fixed;
+        width: 264px;
+        height: 80px;
+        top: 1124px;
+        left: 49px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    #text3 {
+        position: fixed;
+        width: 264px;
+        height: 80px;
+        top: 1364px;
+        left: 49px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    #text4 {
+        position: fixed;
+        width: 264px;
+        height: 60px;
+        top: 1604px;
+        left: 49px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    #box2 {
+        position: fixed;
+        width: 312px;
+        height: 216px;
+        top: 1056px;
+        left: 25px;
+        gap: 0px;
+        border-radius: 8px;
+        opacity: 0px;
+
+    }
+
+    #box3 {
+        position: fixed;
+        width: 312px;
+        height: 216px;
+        top: 1296px;
+        left: 25px;
+        gap: 0px;
+        border-radius: 8px;
+        opacity: 0px;
+
+    }
+
+    #box4 {
+        position: fixed;
+        width: 312px;
+        height: 216px;
+        top: 1536px;
+        left: 25px;
+        gap: 0px;
+        border-radius: 8px;
+        opacity: 0px;
+
+
+ }
+
+} */
