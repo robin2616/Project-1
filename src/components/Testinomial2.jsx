@@ -4,9 +4,9 @@ import { FaPlayCircle } from "react-icons/fa";
 
 function Testinomial2(){
     return(<>
-    <div id="mainbox" className=" w-[1440px] h-[672px] bg-black-200">
+    <div id="maintexztbox" className=" w-[1440px] h-[672px] bg-black-200">
 
-        <div className="w-[1240px] h-[472px] relative left-[100px] top-[100px] bg-[#F7F5F9] rounded-xl">
+        <div id="insidemain" className="w-[1240px] h-[472px] relative left-[100px] top-[100px] bg-[#F7F5F9] rounded-xl">
         
         <div className=" relative w-[221px] flex flex-row  h-10 left-[40px] top-[50px]">
             <span className="text-[35px] mr-4 text-[#8064A2]"><TbVectorBezierCircle/></span>

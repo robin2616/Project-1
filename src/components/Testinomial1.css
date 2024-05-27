@@ -1,18 +1,16 @@
-/* @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
 
 #mainbox{
-translate: 0px 100px;
-   left: 100px;
+position: fixed;
+   left: 0px;
     width: 360px;
     height: 332px;
-    top: 1800px;
-    gap: 0px;
-    opacity: 0px;
-    
+    top: 2200px;
+ 
 
 }
 
-#insidebox{
+#insidebox{position: fixed;
     width: 312px;
     height: 236px;
     top: 48px;
@@ -24,7 +22,7 @@ translate: 0px 100px;
 }
 
 #lastbtn{
-    position: relative;
+    position: fixed;
     width: 264px;
     height: 32px;
     top: 105px;
@@ -33,15 +31,13 @@ translate: 0px 100px;
     border-radius: 8px;
 
     
-
+/* 
 }
-#btntext{position: relative;
+#btntext{position: absolute;
     width: 54px;
 height: 16px;
-top: -6px;
+top: 300px;
 left: 80px;
-gap: 0px;
-opacity: 0px;
 font-family: Poppins;
 font-size: 12px;
 font-weight: 600;
@@ -66,9 +62,8 @@ letter-spacing: 0.02em;
 
 
 
-}
-
-
-
-
 } */
+
+
+}
+ }

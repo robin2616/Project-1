@@ -2,7 +2,7 @@ import img2 from "./img2.png";
 import './End.css'
 function End(){
     return(<>
-    <div id="mainbox" className=" w-[1440px] h-[662px] bg-[#F7FDFF]">
+    <div id="mainendbox" className=" w-[1440px] h-[662px] bg-[#F7FDFF]">
 
 <span className="w-[565px] h-[54px] relative  text-4xl italic font-medium leading-[54px] text-left left-[100px] top-[100px]">Your <span className="text-[#8064A2]">Hobby</span>, Your <span className="text-blue-400">Community</span> ...</span>
 

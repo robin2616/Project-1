@@ -18,7 +18,7 @@ function Homescreen(){
 <div id="leftone" className="w-[706px] h-[60px] absolute text-xl font-light leading-[30px] tracking-[0.02em] text-left left-[101px] top-[380px]">If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products,  services or events.  Hop on your hobbyhorse and enjoy the ride.</div>
 
 <div>
-    <img className=" absolute top-[540px] left-[100px] " src={img3} />
+    <img id="lastimg" className=" absolute top-[540px] left-[100px] " src={img3} />
 </div>
 
 
@@ -64,7 +64,7 @@ function Homescreen(){
 </div> 
 
 :
- <div className=" bg-[#F7F5F9] relative top-[103px] left-[930px] h-[380px] w-[410px]">
+ <div id="signupbox" className=" bg-[#F7F5F9] relative top-[103px] left-[930px] h-[380px] w-[410px]">
         
  <div >
     <button onClick={()=>{updateview(true)}} className="relative mr-2 text-xl p-4">Sign In</button>

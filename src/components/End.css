@@ -1,31 +1,19 @@
-/* @media only screen and (max-width: 600px) {
-    #mainbox{position: fixed;
-        width: 360px;
+@media only screen and (max-width: 600px) {
+  #mainendbox{position: fixed;
+    width: 360px;
 height: 267px;
-top: 2040px;
-left: 0px;
+top: 2840px;
+gap: 0px;
+opacity: 0px;
 background-color: green;
-
+  }
+    
+    
+    
+    
+    
+    
+    
     
     
     }
-    
-    #image{position:fixed;
-        width: 312.05px;
-        height: 76px;
-        top: 2840px;
-        left: 24px;
-       
-        
-
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    } */

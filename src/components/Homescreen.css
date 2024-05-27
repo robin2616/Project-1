@@ -42,8 +42,17 @@ text-align: left;
     translate: 400px;
 }
 
-#loginbox{
-    translate: -5000px;
+#loginbox{position: absolute;
+    left: 0px;
+}
+#lastimg{position: relative;
+    width: 312px;
+height: 96.74px;
+top: 623px;
+left: 24px;
+translate: 0px -75px;
+
+
 }
 
 }
