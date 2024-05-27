@@ -3,6 +3,8 @@ import { RiLock2Line } from "react-icons/ri";
 import img3 from './img3.png'
 import { useState } from "react";
 import './Homescreen.css'
+import { FaFacebook } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
 
 function Homescreen(){
     const[view,updateview] =useState(true)
@@ -33,31 +35,33 @@ function Homescreen(){
     <button onClick={()=>{updateview(false)}} className=" relative p-4 text-xl">Join In</button>
 </div>
 
-<button className="w-[410px] mt-10  relative border-[#8064A2] border-2 h-10 gap-[88px]  pl-6 pr-32 py-3 rounded-lg">
-    <span className="w-[154px] absolute translate-x-[10px] translate-y-[-8px] h-4 text-sm font-semibold leading-4 text-left">Continue with Google</span>
+<button id="fbbtn" className="w-[410px] mt-10 flex flex-row  relative border-[#8064A2]   border-2 h-10 gap-[88px]   rounded-lg">
+    <span className=" translate-x-5 text-2xl translate-y-1"><FaGoogle/></span>
+    <span className="w-[154px] absolute translate-x-[130px] translate-y-[8px] h-4 text-sm font-semibold leading-4 text-left">Continue with Google</span>
 </button>
 
-<button className="w-[410px] mt-5  relative border-[#8064A2] border-2 h-10 gap-[88px]  pl-6 pr-32 py-3 rounded-lg">
-    <span className="w-[154px] absolute translate-x-[10px] translate-y-[-8px] h-4 text-sm font-semibold leading-4 text-left">Continue with Google</span>
+<button id="goobtn" className="w-[410px] mt-5 flex flex-row relative border-[#8064A2] border-2 h-10 gap-[88px]  pl-6 pr-32 py-3 rounded-lg">
+    <span className=" translate-x-[-5px] text-2xl translate-y-[-3px]"><FaFacebook/></span>
+    <span className="w-[154px] absolute translate-x-[110px] translate-y-[0px] h-4 text-sm font-semibold leading-4 text-left">Continue with Google</span>
 </button>
 
-<span className=" absolute left-[37%] translate-y-[70px] text-sm font-normal">Or connect with</span>
+<span id="txt" className=" absolute left-[37%] translate-y-[70px] text-sm font-normal">Or connect with</span>
 
-<input placeholder="        Email  " className="w-[410px] h-[40px] mt-10 gap-2.5 border  rounded-lg"/> 
+<input id="inpemail" placeholder="        Email  " className="w-[410px] h-[40px] mt-10 gap-2.5 border  rounded-lg"/> 
 
-<input placeholder="        Password  " className="w-[410px] h-[40px] mt-3 gap-2.5 border  rounded-lg"/> 
+<input id="inppass" placeholder="        Password  " className="w-[410px] h-[40px] mt-3 gap-2.5 border  rounded-lg"/> 
 
-<div className=" flex flex-row mt-3 ml-2">
+<div id="lock" className=" flex flex-row mt-3 ml-2">
     <span><MdOutlineCheckBoxOutlineBlank/></span>
     <span className="w-[92px] ml-1 h-4 text-sm font-normal leading-4 text-left left-6">Remember me</span>
 </div>
 
-<div className=" flex flex-row ">
-    <span className="translate-x-[275px] translate-y-[-15px]"><RiLock2Line/></span>
+<div id="frgt" className=" flex flex-row ">
+    <span  className="translate-x-[275px] translate-y-[-15px]"><RiLock2Line/></span>
     <span className=" relative h-4 text-sm font-normal  top-[-20px] translate-x-[280px] translate-y-[3px]">Forgot password?</span>
 </div>
 
-<button className="w-[410px] h-[40px] absolute translate-y-[7px]  bg-[#F7F5F9] gap-2.5  text-xl font-semibold border-black border-2  rounded-lg">Continue</button> 
+<button id="finalbtn" className="w-[410px] h-[40px] absolute translate-y-[7px]  bg-[#F7F5F9] gap-2.5  text-xl font-semibold border-black border-2  rounded-lg">Continue</button> 
 
 
 

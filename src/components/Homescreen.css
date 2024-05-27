@@ -8,6 +8,39 @@ top: 48px;
 
 }
 
+#finalbtn{
+    width: 312px;
+    translate: 20px;
+}
+#frgt{
+    translate: -60px;
+}
+#lock{
+    translate: 30px;
+}
+
+#inpemail{
+width: 312px;
+translate: 20px;
+}
+#fbbtn{
+width: 312px;
+translate: 20px;
+
+}
+#goobtn{
+    width: 312px;
+    translate: 20px;
+}
+
+#txt{
+    translate: 0px -62px;
+}
+
+#inppass{
+width: 312px;
+translate: 20px;}
+
 #textfir{position: relative;
     width: 288px;
 height: 27px;

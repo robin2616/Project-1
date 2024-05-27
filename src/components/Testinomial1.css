@@ -32,11 +32,11 @@
 
 
 }
-#btntext{position: absolute;
-    width: 54px;
+#btntext{position: fixed;
+    width: 200px;
 height: 16px;
-top: 300px;
-left: 80px;
+top: 2035px;
+left: 40px;
 font-family: Poppins;
 font-size: 12px;
 font-weight: 600;

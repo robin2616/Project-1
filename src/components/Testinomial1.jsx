@@ -16,7 +16,7 @@ function Testinomial1() {
 
                     <div id="textbox" className=" mt-8 mb-8 w-[1160px] h-[60px] text-xl leading-[30px] tracking-[0.02em] font-semibold text-left">Are you a teacher or expert?  Do you sell or rent out equipment, venue or event tickets?  Or, you know someone who should be on hobbycue?  Go ahead and Add your Own page</div>
 
-                    <div id="lastbtn" className=" w-[121px] text-sm text-[#8064A2] font-semibold leading-4 text-left h-[40px] gap-2.5 border px-[29px] py-3 relative rounded-[8px] border-[0px_0px]"><span id="btntext">Add New</span></div>
+                    <div  id="btntext" className=" w-[121px] text-sm text-[#8064A2] font-semibold leading-4 text-left h-[40px] gap-2.5 border px-[29px] py-3 relative rounded-[8px] border-[0px_0px]"><span >Add New</span></div>
 
 
 

@@ -71,41 +71,28 @@ text-align: left;
         border: 1px 0px 0px 0px;
         opacity: 0px;
         }
-    #fbtnt3{position: absolute;
-        width: 33px;
+    #fbtnt3{position: fixed;
+        width: 120px;
         height: 16px;
-        top: 12px;
+        top: 1460px;
         left: 116px;
         gap: 0px;
         opacity: 0px;
         font-family: Poppins;
-font-size: 12px;
-font-weight: 600;
-line-height: 16px;
-text-align: left;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        text-align: left;
+
 }
-    #fbtn4{position: fixed;
-        width: 264px;
-        height: 32px;
-        top: 228px;
-        left: 48px;
-        padding: 8px 0px 8px 0px;
-        gap: 10px;
-        border-radius: 8px 0px 0px 0px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
+    #fbtn4{
+        translate: 0px 40px;
+        width: 120px;
         }
-    #fbtnt4{position: relative;
-        width: 54px;
-        height: 16px;
-        top: 12px;
-        left: 105px;
-        font-family: Poppins;
-font-size: 12px;
-font-weight: 600;
-line-height: 16px;
-text-align: left;
-}
+    #fbtnt4{
+        translate: 0px 5px;
+    }
+
 
     #box1 {
         position: fixed;
