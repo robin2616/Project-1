@@ -1,5 +1,7 @@
 import { TbVectorBezierCircle } from "react-icons/tb";
 import './Testinomial2.css'
+import img4 from './img4.png'
+import img5 from './img5.png'
 import { FaPlayCircle } from "react-icons/fa";
 
 function Testinomial2(){
@@ -13,12 +15,14 @@ function Testinomial2(){
             <div className="w-[157px] h-9  text-[30px] font-semibold leading-9 text-left left-[204px] top-[142px]">Testimonials</div>
         </div>
 
-        <div className="w-[1160px] font-semibold translate-y-[-40px]  h-[180px] text-[20px] relative text-lg leading-[30px] tracking-[0.02em] text-left left-[40px] top-[112px]">In a fast growing and ever changing city like Bangalore, it sometimes becomes very difficult to find or connect with like minded people. Websites like hobbycue.com is a great service which helps me get in touch with, communicate, connect, and exchange ideas with other dancers. It also provides the extra benefit of finding products and services that I can avail, which I can be assured is going to be of great quality as it comes recommended by people of the hobbycue community. To have discussions, to get visibility, and to be able to safely explore various hobbies and activities in my city, all under one roof, is an excellent idea and I highly recommend it.</div>
+        <div id="sectext" className="w-[1160px] font-semibold translate-y-[-40px]  h-[180px] text-[20px] relative text-lg leading-[30px] tracking-[0.02em] text-left left-[40px] top-[112px]">In a fast growing and ever changing city like Bangalore, it sometimes becomes very difficult to find or connect with like minded people. Websites like hobbycue.com is a great service which helps me get in touch with, communicate, connect, and exchange ideas with other dancers. It also provides the extra benefit of finding products and services that I can avail, which I can be assured is going to be of great quality as it comes recommended by people of the hobbycue community. To have discussions, to get visibility, and to be able to safely explore various hobbies and activities in my city, all under one roof, is an excellent idea and I highly recommend it.</div>
         
-        <div className="w-[776px] absolute h-[100px] gap-0 opacity-[0px] left-[40px] rounded-8px bg-[#CCC1DA] top-[342px]">
-            <span className="w-10 h-10 absolute left-[172px] top-[34px]text-4xl"><FaPlayCircle/></span>
+        <div  id="secgbox" className="w-[776px] absolute h-[100px] gap-0 opacity-[0px] left-[40px] rounded-[8px]  bg-[#CCC1DA] top-[342px]">
+          <img src={img4} alt="" />
         </div>
         
+        <img id="img2" className=" w-[304px] absolute h-[100px] left-[900px] top-[322px]" src={img5}></img>
+
         </div>
         
     </div>

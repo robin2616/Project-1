@@ -8,6 +8,104 @@
         height: 1500px;
     }
 
+    #fbtn1{position: fixed;
+        width: 264px;
+height: 32px;
+top: 976px;
+left: 48px;
+padding: 8px 0px 8px 0px;
+gap: 10px;
+border-radius: 8px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+    }
+
+    #fbtn1t{position: absolute;
+        width: 53px;
+height: 16px;
+top: 12px;
+left: 105px;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+
+    }
+
+    #fbtn2{position: fixed;
+        width: 264px;
+        height: 32px;
+        top: 1216px;
+        left: 49px;
+        padding: 8px 0px 8px 0px;
+        gap: 10px;
+        border-radius: 8px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        }
+    #fbtnt2{
+        position: absolute;
+        width: 50px;
+height: 16px;
+top: 12px;
+left: 107px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+
+    }
+    #fbtn3{position: fixed;
+        width: 264px;
+        height: 32px;
+        top: 1456px;
+        left: 49px;
+        padding: 8px 0px 8px 0px;
+        gap: 10px;
+        border-radius: 8px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        }
+    #fbtnt3{position: absolute;
+        width: 33px;
+        height: 16px;
+        top: 12px;
+        left: 116px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+}
+    #fbtn4{position: fixed;
+        width: 264px;
+        height: 32px;
+        top: 228px;
+        left: 48px;
+        padding: 8px 0px 8px 0px;
+        gap: 10px;
+        border-radius: 8px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        }
+    #fbtnt4{position: relative;
+        width: 54px;
+        height: 16px;
+        top: 12px;
+        left: 105px;
+        font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+}
 
     #box1 {
         position: fixed;

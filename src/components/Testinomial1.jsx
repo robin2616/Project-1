@@ -3,10 +3,10 @@ import './Testinomial1.css'
 
 function Testinomial1() {
     return (<>
-        <div id="mainbox" className=" w-[1440px] h-[484px]  bg-[#F7FDFF]">
+        <div id="mainnobox" className=" w-[1440px] h-[484px]  bg-[#F7FDFF]">
 
 
-            <div id="insidebox" className="w-[1240px] rounded-xl h-[284px] bg-white border-grey-400 border-2 opacity-[0px] relative left-[100px] top-[100px]">
+            <div id="insidenobox" className="w-[1240px] rounded-xl h-[284px] bg-white border-grey-400 border-2 opacity-[0px] relative left-[100px] top-[100px]">
                 <div className=" w-[1160px] h-[204px] relative top-[40px] left-[40px] gap-8 opacity-[0px]">
 
                     <div  className="w-[232px] h-10 flex flex-row ">

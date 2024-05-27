@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
 
-#mainscreen{
+#mainscreen{position: fixed;
     width: 360px;
 height: 720px;
 top: 48px;
@@ -43,7 +43,14 @@ text-align: left;
 }
 
 #loginbox{position: absolute;
+   width: 300px;
     left: 0px;
+    top: 180px;
+}
+#signupbox{
+    position: absolute;
+    left: 0px;
+    top: 180px; 
 }
 #lastimg{position: relative;
     width: 312px;

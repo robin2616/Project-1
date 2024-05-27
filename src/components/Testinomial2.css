@@ -9,15 +9,48 @@ background-color: red;
 } */
 
 #insidemain{
-  
+  position: fixed;
 width: 360px;
 height: 708px;
 top: 2132px;
 left: 0px;
-background-color: red;
+background-color: #F7F5F9;
 }
 
+#sectext{
+    width: 264px;
+height: 340px;
+top: 116px;
+left: 48px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-align: center;
 
+}
+
+#secgbox{
+    width: 264px;
+height: 64px;
+top: 572px;
+left: 48px;
+border-radius: 8px;
+opacity: 0px;
+
+}
+#img2{
+  width: 236px;
+height: 60px;
+top: 480px;
+left: 62px;
+gap: 0px;
+opacity: 0px;
+
+}
 
 
 

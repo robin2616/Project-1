@@ -1,16 +1,15 @@
  @media only screen and (max-width: 600px) {
-
-#mainbox{
-position: fixed;
-   left: 0px;
+#mainnobox{position: fixed;
+    left: 0px;
     width: 360px;
     height: 332px;
-    top: 2200px;
- 
-
+    top: 1800px; 
 }
 
-#insidebox{position: fixed;
+
+
+
+#insidenobox{position: relative;
     width: 312px;
     height: 236px;
     top: 48px;
@@ -22,16 +21,16 @@ position: fixed;
 }
 
 #lastbtn{
-    position: fixed;
+    position: relative;
     width: 264px;
     height: 32px;
     top: 105px;
     left: -18px;
     gap: 10px;
-    border-radius: 8px;
+    border-radius: 8px; 
 
-    
-/* 
+
+
 }
 #btntext{position: absolute;
     width: 54px;
@@ -61,9 +60,9 @@ line-height: 20px;
 letter-spacing: 0.02em;
 
 
+}
 
-} */
 
 
 }
- }
+ 

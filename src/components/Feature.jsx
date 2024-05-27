@@ -24,8 +24,8 @@ Find a teacher, coach, or expert for your hobby interest in your locality.  Find
 
 </div>
 
-<div className="w-[122px] relative h-10  gap-2.5 border pl-[30px] pr-[31px] py-3 rounded-[8px] left-10 top-[100px]">
-    <button className=" text-[#8064A2] text-xl font-semibold translate-x-[-6px] translate-y-[-5px]">Connect</button>
+<div id="fbtn1" className="w-[122px] relative h-10  gap-2.5 border pl-[30px] pr-[31px] py-3 rounded-[8px] left-10 top-[100px]">
+    <button id="fbtn1t" className=" text-[#8064A2] text-xl font-semibold translate-x-[-6px] translate-y-[-5px]">Connect</button>
 </div>
 
 
@@ -49,8 +49,8 @@ Find a teacher, coach, or expert for your hobby interest in your locality.  Find
 Find a class, school, playground, auditorium, studio, shop or an event venue.  Book a slot at venues that allow booking through hobbycue.
 </div>
 
-<div className="w-[122px] relative h-10  gap-2.5 border pl-[30px] pr-[31px] py-3 rounded-[8px] left-10 top-[100px]">
-    <button className=" text-[#8064A2] text-xl font-semibold translate-x-[-6px] translate-y-[-5px]">Meet up</button>
+<div id="fbtn2" className="w-[122px] relative h-10  gap-2.5 border pl-[30px] pr-[31px] py-3 rounded-[8px] left-10 top-[100px]">
+    <button id="fbtnt2" className=" text-[#8064A2] text-xl font-semibold translate-x-[-6px] translate-y-[-5px]">Meet up</button>
 </div>
 
 
@@ -73,8 +73,8 @@ Find equipment or supplies required for your hobby.  Buy, rent or borrow from sh
 </div>
 
 
-<div className="w-[122px] relative h-10  gap-2.5 border pl-[30px] pr-[31px] py-3 rounded-[8px] left-10 top-[100px]">
-    <button className=" text-[#8064A2] text-xl font-semibold translate-x-[-6px] translate-y-[-5px]">Get it</button>
+<div id="fbtn3" className="w-[122px] relative h-10  gap-2.5 border pl-[30px] pr-[31px] py-3 rounded-[8px] left-10 top-[100px]">
+    <button id="fbtnt3" className=" text-[#8064A2] text-xl font-semibold translate-x-[-6px] translate-y-[-5px]">Get it</button>
 </div>
 
 
@@ -99,8 +99,8 @@ Find events, meetups and workshops related to your hobby.  Register or buy ticke
 
 
 
-<div className="w-[122px] relative h-10  gap-2.5 border pl-[30px] pr-[31px] py-3 rounded-[8px] left-10 top-[100px]">
-    <button className=" text-[#8064A2] text-xl font-semibold translate-x-[-6px] translate-y-[-5px]">Attend</button>
+<div id="fbtn4" className="w-[122px] relative h-10  gap-2.5 border pl-[30px] pr-[31px] py-3 rounded-[8px] left-10 top-[100px]">
+    <button id="fbtnt4" className=" text-[#8064A2] text-xl font-semibold translate-x-[-6px] translate-y-[-5px]">Attend</button>
 </div>
 
 
