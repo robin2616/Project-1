@@ -58,8 +58,12 @@ Sign In
 
 
 {show &&
-<div onMouseEnter={()=>{updateshow(true)}} onMouseLeave={()=>{updateshow(false)}} className="w-[220px] h-[210px] absolute  left-[-60px]  top-[40px] bg-red-500 ">
-
+<div onMouseEnter={()=>{updateshow(true)}} onMouseLeave={()=>{updateshow(false)}} className="w-[220px] flex flex-col h-[auto] absolute  left-[-60px]  top-[40px]  ">
+<span className="p-3 translate-x-3 hover:scale-105  bg-white">People - Community</span>
+<span className="p-3 translate-x-3 hover:scale-105 bg-white">Places - Venues</span>
+<span className="p-3 translate-x-3 hover:scale-105 bg-white">Programs - Events</span>
+<span className="p-3 translate-x-3 hover:scale-105 bg-white">Products - Store</span>
+<span className="p-3 translate-x-3 hover:scale-105 bg-white">Blogs</span>
 </div>}
 
 
